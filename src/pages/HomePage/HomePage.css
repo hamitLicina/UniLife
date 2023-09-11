@@ -1,0 +1,76 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.city-card-container {
+    margin: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.city-cards-heading {
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+.see-all-cities-btn {
+    cursor: pointer;
+    border-radius: 12px;
+    background: #3A5295;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: none;
+    color: white;
+}
+
+.compare-container {
+    margin: auto;
+    max-width: 1000px;
+    height: 350px;
+    border-radius: 24px;
+    background: #F6FAFD;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.compare-container>h3 {
+    text-align: center;
+    padding: 30px;
+}
+
+.compare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: black;
+    width: 100%;
+}
+
+.compare img {
+    width: 120px;
+    height: 120px;
+}
+
+.compare p {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.comparisons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
