@@ -17,7 +17,7 @@ function HomePage() {
 
   // This page should show all cities when it loads and clicked for that reason I need to create useEffect get data from api
   useEffect(() => {
-    console.log("https://unilife-server.herokuapp.com/cities");
+    // console.log("https://unilife-server.herokuapp.com/cities");
     // Make API call to get All Cities
 
     axios
@@ -55,19 +55,19 @@ function HomePage() {
         <h3>Compare all inclusive student homes.</h3>
         <div className="comparisons">
           <div className="compare">
-            <img src="../../assets/search.png" alt="" />
+            <img src="../../assets/search.png" alt="Search" />
             <h4>Search</h4>
             <p>
               Find your dream home in the perfect area near your university.
             </p>
           </div>
           <div className="compare">
-            <img src="../../assets/compare.png" alt="" />
+            <img src="../../assets/compare.png" alt="Compare" />
             <h4>Compare</h4>
             <p>Compare student accommodation to find the right home for you.</p>
           </div>
           <div className="compare">
-            <img src="../../assets/bills.png" alt="" />
+            <img src=" " alt="Bills Included" />
             <h4>Bills Included</h4>
             <p>Bills are included in all rent prices. No hidden fees.</p>
           </div>
@@ -77,4 +77,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomePage

@@ -3,18 +3,18 @@ import './CitySearch.css'
 import { useNavigate } from 'react-router-dom'
 
 
-function CitySearch({cities}) {
+function CitySearch({ cities }) {
 
     const navigate = useNavigate()
 
     function handleFormSubmit(e) {
-        e.preventDefault()
+        e.preventDefault();
         const selectedCity = e.target.city.value;
         const cityObject = cities.filter(city => city.name == selectedCity)
         if(cityObject) {
             navigate(`/citydetails/${cityObject[0]._id}`)
         } else {
-            console.log(`City not found: ${selectedCity}`)
+            console.error(`City not found: ${selectedCity}`)
         }
     }
 

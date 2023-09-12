@@ -1,0 +1,69 @@
+.social-container {
+    background-color: #00A2E1;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 40px;
+}
+
+.links-container {
+    background-color: black;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.links a {
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+
+.copywrite, .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF99;
+    font-size: 0.75rem;
+}
+
+.socialize, .keep-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 130px;
+}
+
+.keep-in-touch input {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.keep-in-touch p {
+    font-size: 0.8rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-form {
+    position: relative;
+}
+
+.email-input-label {
+    font-size: 0.75rem;
+    position: absolute;
+    left: 0;
+    top: 45px;
+}

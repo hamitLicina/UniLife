@@ -1,0 +1,20 @@
+.city-name-container {
+    width: 300px;
+    height: 88px;
+    border: 1px solid #CED3D8;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.city-name-container:hover {
+    background-color: #3A5295;
+    color: white;
+}

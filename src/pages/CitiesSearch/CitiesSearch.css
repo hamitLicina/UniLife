@@ -1,0 +1,16 @@
+.cityname-card-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 80px;
+    padding: 40px;
+}
+
+.search-by-city-heading {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
