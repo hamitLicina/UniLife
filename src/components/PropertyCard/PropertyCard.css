@@ -7,6 +7,7 @@
     height: 400px;
     border: 1px solid #CED3D8;
     border-radius: 24px;
+    position: relative;
 }
 
 .property-container h3 {
@@ -83,4 +84,10 @@
 .view-home-button:hover {
     background-color: #3A5295;
     color: white;
+}
+
+.shortlist-heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }

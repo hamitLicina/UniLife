@@ -1,13 +1,13 @@
 .city-search-form {
-    max-width: 800px;
-    width: 50vw;
+    max-width: 700px;
+    width: 80vw;
     height: 90px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 280px;
+    top: 320px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,8 +26,14 @@
     cursor: pointer;
     color: white;
     background-color: #3A5295;
-    width: 25%;
+    width: 150px;
     height: 30px;
     border: none;
     border-radius: 8px;
+}
+
+@media (max-width: 550px) {
+    .city-search-form {
+        flex-direction: column;
+    }
 }

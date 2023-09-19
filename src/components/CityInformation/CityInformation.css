@@ -1,0 +1,44 @@
+.city-information-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F6FAFD;
+    border-radius: 24px;
+    padding: 30px;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.city-information-container img {
+    width: 50%;
+}
+
+.information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.information-text p {
+    font-size: 1.1rem;
+}
+
+.information-text h3 {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+
+    .city-information-container {
+        flex-direction: column;
+    }
+
+    .city-information-container img {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .information-text {
+        text-align: left;
+    }
+}

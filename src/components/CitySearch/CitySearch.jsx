@@ -5,7 +5,11 @@ import { useNavigate } from 'react-router-dom'
 
 function CitySearch({ cities }) {
 
-    const navigate = useNavigate()
+    //  City search box with dropdown list of properties from api call
+
+    const navigate = useNavigate()  //  Navigate hook to handle page routing
+
+    //  Handle user input Where the form is submitted
 
     function handleFormSubmit(e) {
         e.preventDefault();
@@ -21,14 +25,15 @@ function CitySearch({ cities }) {
   return (
     <form className='city-search-form' onSubmit={handleFormSubmit}>
         <select name='city'>
-            <option disabled >Search by City</option>
-            {cities?.map((city) => {
+            <option disabled selected>Search by City</option>
+            { //    Create an option for each city returned from api
+            cities?.map((city) => {
                 return (
                     <option key={city._id} value={city.name}>
                         {city.name}
                     </option>
                 )
-            })
+              })
             }
         </select>
         <button type='submit'>Find Homes</button>

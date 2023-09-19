@@ -2,12 +2,18 @@
     max-width: 1300px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 40px;
     padding: 40px;
+}
+
+.citydetails-container {
+    max-width: 1300px;
+    width: 90vw;
+    margin: auto;
 }
 
 .citydetails-container h1 {
@@ -19,20 +25,19 @@
 }
 
 .property-filter {
-    max-width: 1000px;
-    width: 50vw;
-    height: 90px;
+    max-width: 1200px;
+    width: 90vw;
+    height: 100px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 280px;
+    top: 320px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.15);
-    
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);    
 }
 
 .filter-area {
@@ -47,6 +52,46 @@
     width: 100%;
     padding: 3px;
     border-radius: 8px;
+    border: 1px solid #CED3D8;
     height: 30px;
     user-select: none;
+}
+
+@media (max-width: 900px) {
+    .property-filter {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .filter-area {
+        width: 50%;
+        padding: 3px 10px;
+    }
+
+    .filter-label {
+        display: none;
+    }
+}
+
+@media (max-width: 830px) {
+    .properties-container {
+        padding: 40px 10px;
+    }
+
+    .property-filter {
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .filter-area {
+        width: 100%;
+    }
+
+    .city-details-container h1 {
+        margin-top: 90px;
+        margin-bottom: 0px;
+        font-size: 1.3rem;
+        padding: 20px;
+    }
 }

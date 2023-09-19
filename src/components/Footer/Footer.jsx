@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
 import { BsFacebook } from 'react-icons/bs'
@@ -8,17 +8,20 @@ import axios from 'axios'
 
 function Footer() {
 
+  //  Footer component with option to sign up for email notifications
+
   const [emailAddress, setEmailAddress] = useState('')  // Create a state variable to hold the email input value
   const [emailMessage, setEmailMessage] = useState({ message: '', color: '' })  // State to store message and style when email submitted
   const url = 'https://unilife-server.herokuapp.com/subscriptions';   // Subscription post endpoint
-  const requestData = { email: emailAddress };  // Axios post request
+  //  const requestData = { email: emailAddress };  // Axios post request
+
   //  Handle email validation and call post email function when form submitted
   function handleFormSubmission(e) {
     e.preventDefault();
     if (isValidEmail(emailAddress)) {
       postEmailAddress()
     } else {
-      setEmailMessage({ message: `That email doesn't look right. Please try again.`, color: 'red' })
+      setEmailMessage({ message: `That e-mail doesn't look right. Please try again.`, color: 'red' })
     }
   }
   // Validate input formatting when form submitted
@@ -26,9 +29,10 @@ function Footer() {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailRegex.test(emailAddress);
   }
-  //post email address top endpoint with submitted email address. Set success message and color
+
+  //  Post email address top endpoint with submitted email address. Set success message and color
   function postEmailAddress() {
-    axios.post(url, requestData)
+    axios.post('https://unilife-server.herokuapp.com/subscriptions', { email: emailAddress })
       .then(res => {
         setEmailMessage({ message: 'Done. Thanks for subscribing to our newsletter', color: 'green' })
         console.log(res)

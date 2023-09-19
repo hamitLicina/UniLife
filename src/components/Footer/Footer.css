@@ -67,3 +67,24 @@
     left: 0;
     top: 45px;
 }
+
+
+@media (max-width: 630px) {
+
+    .social-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        height: auto;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .links-container {
+        padding: 50px 15px;
+    }
+}
