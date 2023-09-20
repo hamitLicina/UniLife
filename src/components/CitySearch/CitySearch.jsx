@@ -3,6 +3,7 @@ import './CitySearch.css'
 import { useNavigate } from 'react-router-dom'
 
 
+
 function CitySearch({ cities }) {
 
     //  City search box with dropdown list of properties from api call
@@ -24,8 +25,8 @@ function CitySearch({ cities }) {
 
   return (
     <form className='city-search-form' onSubmit={handleFormSubmit}>
-        <select name='city'>
-            <option disabled selected>Search by City</option>
+        <select name='city' defaultValue="">
+            <option disabled value="">Search by City</option>
             { //    Create an option for each city returned from api
             cities?.map((city) => {
                 return (

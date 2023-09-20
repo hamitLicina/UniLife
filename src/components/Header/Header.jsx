@@ -13,6 +13,9 @@ function Header() {
 
   const [isContactOpen, setIsContactOpen] = useState(false)   //  State for the contact modal open or not
   const [isNavOpen, setIsNavOpen] = useState(false)   //  State for the nav mobile modal open
+
+  Modal.setAppElement('#root'); // Assuming '#root' is the ID of your root element
+
   
   const customStyles = {  // Styles for the modal
     content: {

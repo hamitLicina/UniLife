@@ -26,6 +26,8 @@ function PropertyDetails() {
     const { addProperty, removeProperty, shortlist } = useContext(ShortlistContext)     //  Retrieve global state and functions from context
     const [onShortlist, setOnShortlist] = useState(false)   //  Store if property is in shortlist to update heart icon
     const objectEntries = Object.entries(bedroomPrices)     //  Store the bedroom price object as variable to map through
+    Modal.setAppElement('#root'); // Assuming '#root' is the ID of your root element
+
     const customStyles = {
         content: {
             top: '50%',
