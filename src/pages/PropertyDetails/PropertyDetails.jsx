@@ -1,14 +1,14 @@
 import React, { useContext, useState, useEffect } from 'react'
 import './PropertyDetails.css'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router'
 import axios from 'axios'
 import { BiBed, BiBath } from "react-icons/bi";
 import { TiTick } from "react-icons/ti";
 import { AiOutlineHeart, AiFillHeart, AiOutlineClose } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import '../../components/Modal/Modal.css'
 import { ShortlistContext } from '../../context/ShortlistContext';
-
 
 
 

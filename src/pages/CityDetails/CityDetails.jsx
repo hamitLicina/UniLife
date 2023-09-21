@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './CityDetails.css'
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router'
 import axios from 'axios'
 import PropertyCard from '../../components/PropertyCard/PropertyCard'
 import Slider from '../../components/Slider/Slider'

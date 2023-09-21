@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage/HomePage'
@@ -18,17 +17,17 @@ function App() {
     
     <BrowserRouter>
       <ShortlistContextProvider>
-      <Header />
+        <Header />
 
-      <Routes>
-        <Route path='/' element={<HomePage />}></Route>
-        <Route path='/cities' element={<CitiesSearch />}></Route>
-        <Route path='/citydetails/:cityid' element={<CityDetails />}></Route>
-        <Route path='/propertydetails/:propertyId' element={<PropertyDetails />}></Route>
-        <Route path='/shortlist' element={<Shortlist />} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<HomePage />}></Route>
+          <Route path='/cities' element={<CitiesSearch />}></Route>
+          <Route path='/citydetails/:cityid' element={<CityDetails />}></Route>
+          <Route path='/propertydetails/:propertyId' element={<PropertyDetails />}></Route>
+          <Route path='/shortlist' element={<Shortlist />} />
+        </Routes>
 
-      <Footer />
+        <Footer />
       </ShortlistContextProvider>
 
     </BrowserRouter>
