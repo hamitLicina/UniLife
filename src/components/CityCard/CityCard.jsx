@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 function CityCard({ name, count, imageUrl, cityId }) {
-  
+
   //  Card component to show city image, name and number of properties
 
   //  Link wrapping card container to allow routing when card is clicked

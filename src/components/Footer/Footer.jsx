@@ -5,7 +5,6 @@ import { BsFacebook } from 'react-icons/bs'
 import { AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai'
 import axios from 'axios'
 
-
 function Footer() {
 
   //  Footer component with option to sign up for email notifications

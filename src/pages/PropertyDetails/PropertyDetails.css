@@ -29,7 +29,7 @@
     gap: 10px;
 }
 
-.property-images > img {
+.property-images>img {
     border-radius: 20px;
     width: 100%;
 }
@@ -69,7 +69,8 @@
     margin: auto;
 }
 
-.property-item, .item-main {
+.property-item,
+.item-main {
     display: flex;
     align-items: center;
     color: #3A5295;

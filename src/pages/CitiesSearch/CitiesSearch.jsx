@@ -17,10 +17,10 @@ function CitiesSearch() {
   //  Get all cities when page loads
   useEffect(() => {
     axios.get('https://unilife-server.herokuapp.com/cities')
-    .then(res => {
-      setCities(res.data.response)
-    })
-    .catch(err => console.log(err))
+      .then(res => {
+        setCities(res.data.response)
+      })
+      .catch(err => console.log(err))
   }, [])
 
   return (

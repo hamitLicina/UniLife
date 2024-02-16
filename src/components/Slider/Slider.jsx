@@ -2,10 +2,10 @@ import React from 'react'
 import './Slider.css'
 
 
-function Slider({title, message}) {
+function Slider({ title, message }) {
 
   //  Background image with text passed from parent component or page
-  
+
   return (
     <div className='slider-container'>
       <div className="slider-text">

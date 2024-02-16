@@ -11,10 +11,10 @@ import Shortlist from './pages/Shortlist/Shortlist'
 
 
 
-function App() {  
+function App() {
 
   return (
-    
+
     <BrowserRouter>
       <ShortlistContextProvider>
         <Header />

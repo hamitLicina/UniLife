@@ -23,7 +23,8 @@
     padding: 30px;
 }
 
-.see-all-cities-btn, .benefits-container a {
+.see-all-cities-btn,
+.benefits-container a {
     cursor: pointer;
     border-radius: 12px;
     background: #3A5295;
@@ -48,7 +49,7 @@
     margin-bottom: 40px;
 }
 
-.compare-container > h3 {
+.compare-container>h3 {
     text-align: center;
     padding: 30px;
 }
@@ -125,7 +126,7 @@
 }
 
 
-@media  (max-width: 1050px) {
+@media (max-width: 1050px) {
     .city-card-container {
         grid-template-columns: 1fr 1fr;
     }
@@ -148,7 +149,7 @@
 }
 
 
-@media  (max-width: 670px) {
+@media (max-width: 670px) {
     .city-card-container {
         grid-template-columns: 1fr;
     }

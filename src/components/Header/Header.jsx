@@ -16,7 +16,7 @@ function Header() {
 
   Modal.setAppElement('#root'); // Assuming '#root' is the ID of your root element
 
-  
+
   const customStyles = {  // Styles for the modal
     content: {
       top: '50%',
@@ -49,7 +49,7 @@ function Header() {
 
   return (
     <>
-       <nav className='header-container' id='header'>
+      <nav className='header-container' id='header'>
         <div className='header-home'>
           <Link to={'/'}><img src='../../assets/uniLife-logo.png' alt='uniLife logo' />UniLife</Link>
         </div>
