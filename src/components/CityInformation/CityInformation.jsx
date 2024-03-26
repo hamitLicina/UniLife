@@ -2,6 +2,7 @@ import React from 'react'
 import './CityInformation.css'
 
 
+
 function CityInformation({ city }) {
 
   //  City information card to display city name and paragraph information from api

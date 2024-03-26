@@ -6,6 +6,7 @@ import { AiFillHeart } from "react-icons/ai";
 import { ShortlistContext } from "../../context/ShortlistContext";
 
 
+
 function PropertyCard({ property }) {
 
   //  Card to show property overview with link to more details, heart for shortlist

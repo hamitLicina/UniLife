@@ -1,80 +1,79 @@
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 50px;
-    background-color: #00A2E1;
-    color: white;
-    height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #00a2e1;
+  color: white;
+  height: 70px;
 }
 
 .header-links {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .header-container a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    gap: 6px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  gap: 6px;
 }
 
-.header-home>a {
-    font-size: 1.5rem;
+.header-home > a {
+  font-size: 1.5rem;
 }
 
 .header-home img {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .mobile-nav-button {
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    color: white;
-    font-size: 1.6rem;
-    display: none;
-    z-index: 900;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-size: 1.6rem;
+  display: none;
+  z-index: 900;
 }
 
 .nav-modal {
-    background-color: #00A2E1;
-    height: 70px;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    right: 0;
+  background-color: #00a2e1;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .nav-modal a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    user-select: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  user-select: none;
 }
 
 .nav-modal a:hover {
-    color: #CED3D8;
+  color: #ced3d8;
 }
 
 @media (max-width: 620px) {
+  .mobile-nav-button {
+    display: block;
+  }
 
-    .mobile-nav-button {
-        display: block;
-    }
-
-    .header-links {
-        display: none;
-    }
+  .header-links {
+    display: none;
+  }
 }

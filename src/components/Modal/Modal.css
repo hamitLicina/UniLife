@@ -1,78 +1,77 @@
 .booking-form {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .modal-header h2,
 .modal-header h4,
 .modal-header .welcome {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .booking-form input,
 .booking-form textarea,
 .booking-form select {
-    padding: 10px;
-    border: 1px solid #CED3D8;
-    border-radius: 12px;
-    max-width: 100%;
-    width: 300px;
-    margin-bottom: 10px;
-    resize: none;
+  padding: 10px;
+  border: 1px solid #ced3d8;
+  border-radius: 12px;
+  max-width: 100%;
+  width: 300px;
+  margin-bottom: 10px;
+  resize: none;
 }
 
 .booking-form select {
-    margin-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .booking-form textarea {
-    height: 100%;
+  height: 100%;
 }
 
 .booking-form button {
-    cursor: pointer;
-    border-radius: 12px;
-    background: #3A5295;
-    color: white;
-    border: none;
-    padding: 11px;
-    margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  background: #3a5295;
+  color: white;
+  border: none;
+  padding: 11px;
+  margin-bottom: 10px;
 }
 
 .form-part-1,
 .form-part-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .modal-close-btn {
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border: none;
-    color: #3A5295;
-    font-size: 2rem;
-    background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  color: #3a5295;
+  font-size: 2rem;
+  background-color: transparent;
 }
 
 ::placeholder {
-    color: #CED3D8;
+  color: #ced3d8;
 }
 
 @media (max-width: 754px) {
+  .booking-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .booking-form {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .booking-form,
-    .form-part-1,
-    .form-part-2 {
-        width: 260px;
-    }
+  .booking-form,
+  .form-part-1,
+  .form-part-2 {
+    width: 260px;
+  }
 }

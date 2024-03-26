@@ -5,6 +5,7 @@ import Slider from './../../components/Slider/Slider';
 import CityNameCard from './../../components/CityNameCard/CityNameCard';
 
 
+
 function CitiesSearch() {
 
   //  Page to display all available cities from the api database as selectable city cards

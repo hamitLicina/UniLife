@@ -3,6 +3,7 @@ import "./CityCard.css";
 import { Link } from "react-router-dom";
 
 
+
 function CityCard({ name, count, imageUrl, cityId }) {
 
   //  Card component to show city image, name and number of properties

@@ -1,11 +1,11 @@
 .shortlist-container {
-    min-height: 70vh;
-    text-align: center;
-    margin: 80px auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1000px;
-    width: 90vw;
+  min-height: 70vh;
+  text-align: center;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  width: 90vw;
 }

@@ -3,6 +3,7 @@ import './CityNameCard.css'
 import { Link } from 'react-router-dom'
 
 
+
 function CityNameCard({ name, id }) {
 
   //  City name card wrapped in routing link to view properties in that city
