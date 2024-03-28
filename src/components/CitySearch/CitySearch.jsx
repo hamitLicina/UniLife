@@ -37,6 +37,7 @@ function CitySearch({ cities }) {
                     })
                 }
             </select>
+
             <button type='submit'>Find Homes</button>
         </form>
     )
