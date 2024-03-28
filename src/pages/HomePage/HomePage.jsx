@@ -25,7 +25,7 @@ function HomePage() {
         // Make API call to get All Cities
 
         axios
-            .get(`https://unilife-server.herokuapp.com/cities`)
+            .get(`https://unilife-server.herokuapp.com/cities?limit=15`)
             .then((res) => {
                 console.log(res.data.response);
                 setCities(res.data.response);
