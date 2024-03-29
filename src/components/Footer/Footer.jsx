@@ -66,19 +66,19 @@ function Footer() {
         <div className='socialize'>
           <h2>Let&apos;s socialize</h2>
           <div className='social-link'>
-            <a href="https://www.facebook.com/hlicina/">
+            <a href="https://www.facebook.com/hlicina/" target="_blank">
               <BsFacebook />
               <p>Facebook</p>
             </a>
           </div>
           <div className='social-link'>
-            <a href="https://twitter.com/HamitLICINA">
+            <a href="https://twitter.com/HamitLICINA" target="_blank">
               <AiFillTwitterCircle />
               <p>Twitter</p>
             </a>
           </div>
           <div className='social-link'>
-            <a href="https://www.instagram.com/hamitlicina/">
+            <a href="https://www.instagram.com/hamitlicina/" target="_blank">
               <AiFillInstagram />
               <p>Instagram</p>
             </a>
