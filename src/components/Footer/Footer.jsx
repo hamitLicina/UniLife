@@ -84,7 +84,7 @@ function Footer() {
           <Link to={'#'}>Privacy & Cookies Policy</Link>
         </div>
         <div className='copywrite'>
-          <p>2023</p>
+          <p>2024</p>
           <p>&copy;UniLife</p>
         </div>
       </div>
