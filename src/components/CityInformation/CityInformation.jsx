@@ -1,5 +1,6 @@
 import React from 'react'
 import './CityInformation.css'
+import students from '../../assets/students.png'
 
 
 
@@ -14,7 +15,7 @@ function CityInformation({ city }) {
         <p>{city?.student_life}</p>
         <p>{city?.universities}</p>
       </div>
-      <img src="images/students.png" alt="Happy Students" />
+      <img src={students} alt="Happy Students" />
     </div>
   )
 }

@@ -53,10 +53,17 @@
   font-size: 0.8rem;
 }
 
-.social-link {
+.social-link{
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+
+.social-link a{
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
 }
 
 .email-form {

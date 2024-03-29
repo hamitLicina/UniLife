@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { AiOutlineHeart, AiOutlineMail, AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Modal from 'react-modal'
 import '../../components/Modal/Modal.css'
+import uniLifeLogo from '../../assets/uniLifeLogo.png'
 
 
 
@@ -51,7 +52,7 @@ function Header() {
     <>
       <nav className='header-container' id='header'>
         <div className='header-home'>
-          <Link to={'/'}><img src="images/uniLifeLogo.png" alt='uniLife logo' /></Link>
+          <Link to={'/'}><img src={uniLifeLogo} alt='uniLife logo' /></Link>
         </div>
         <div className='header-links'>
           <Link to={'/shortlist'}><AiOutlineHeart />Shortlist</Link>

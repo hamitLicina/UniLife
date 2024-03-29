@@ -32,6 +32,8 @@ function Footer() {
   }
 
   //  Post email address top endpoint with submitted email address. Set success message and color
+  //  https://unilife-server.herokuapp.com/subscriptions 
+
   function postEmailAddress() {
     axios.post('https://unilife-server.herokuapp.com/subscriptions', { email: emailAddress })
       .then(res => {
@@ -64,8 +66,10 @@ function Footer() {
         <div className='socialize'>
           <h2>Let&apos;s socialize</h2>
           <div className='social-link'>
-            <BsFacebook />
-            <p>Facebook</p>
+            <a href="https://www.facebook.com/hlicina/">
+              <BsFacebook />
+              <p>Facebook</p>
+            </a>
           </div>
           <div className='social-link'>
             <AiFillTwitterCircle />
