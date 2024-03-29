@@ -72,12 +72,16 @@ function Footer() {
             </a>
           </div>
           <div className='social-link'>
-            <AiFillTwitterCircle />
-            <p>Twitter</p>
+            <a href="https://twitter.com/HamitLICINA">
+              <AiFillTwitterCircle />
+              <p>Twitter</p>
+            </a>
           </div>
           <div className='social-link'>
-            <AiFillInstagram />
-            <p>Instagram</p>
+            <a href="https://www.instagram.com/hamitlicina/">
+              <AiFillInstagram />
+              <p>Instagram</p>
+            </a>
           </div>
         </div>
       </div>
