@@ -66,19 +66,19 @@ function Footer() {
         <div className='socialize'>
           <h2>Let&apos;s socialize</h2>
           <div className='social-link'>
-            <a href="https://www.facebook.com/hlicina/" target="_blank">
+            <a href="https://www.facebook.com/hlicina/" target="_blank" style={{ color: 'inherit' }} >
               <BsFacebook />
               <p>Facebook</p>
             </a>
           </div>
           <div className='social-link'>
-            <a href="https://twitter.com/HamitLICINA" target="_blank">
+            <a href="https://twitter.com/HamitLICINA" target="_blank" style={{ color: 'inherit' }} >
               <AiFillTwitterCircle />
               <p>Twitter</p>
             </a>
           </div>
           <div className='social-link'>
-            <a href="https://www.instagram.com/hamitlicina/" target="_blank">
+            <a href="https://www.instagram.com/hamitlicina/" target="_blank" style={{ color: 'inherit' }} >
               <AiFillInstagram />
               <p>Instagram</p>
             </a>
