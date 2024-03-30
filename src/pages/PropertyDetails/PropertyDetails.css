@@ -171,6 +171,12 @@
   text-decoration: underline;
 }
 
+.homeAndWork {
+  position: relative;
+  top: -90px;
+  right: -200px;
+}
+
 @media (max-width: 1000px) {
   .property-details-container {
     display: flex;
