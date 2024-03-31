@@ -83,3 +83,9 @@
     display: none;
   }
 }
+
+@media (max-width: 756px) {
+  .postOffice {
+    display: none;
+  }
+}
