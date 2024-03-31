@@ -30,7 +30,7 @@ function Header() {
       maxWidth: '90vw',
     },
     overlay: {
-      backgroundColor: 'rgba(0,0,0,0.5)'
+      backgroundColor: 'rgba(0, 0, 0, 0.3)'
     }
   };
 
@@ -39,7 +39,7 @@ function Header() {
       transform: 'translate(0, 95%)',
     },
     overlay: {
-      backgroundColor: 'rgba(0,0,0,0.0)'
+      backgroundColor: 'rgba(0, 0, 0, 0.1)'
     }
   };
 
